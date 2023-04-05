@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('https://earnest-torte-8ace06.netlify.app', { 
+        const response = await fetch('https://gpt4-backend.vercel.app/', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
